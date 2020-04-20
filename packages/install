@@ -2,7 +2,7 @@
 
 declare -i version
 
-url="https://github.com/erbuer/OMV-Extras/master/packages/"
+url="https://raw.githubusercontent.com/erbuer/OMV-Extras/master/packages/"
 
 version=$(dpkg -l openmediavault | awk '$2 == "openmediavault" { print substr($3,1,1) }')
 
